@@ -46,14 +46,15 @@ hr{background: #333;border: 0;height: 2px;margin: 12px auto 8px;width: 100vw;}
     #section-1 h1{
         font-size:5vw;
         letter-spacing:1px;	
-	
+				font-weight:bold
 	
     }
 
     #section-1 h5{
         text-transform:capitalize;
         opacity:.75;
-        font-size:2.5vw;
+        font-size:2.0vw;
+        font-weight:100;
 	
     }
 article{
@@ -68,11 +69,14 @@ article{
 	}
 
     article h4:first-child{ margin:0; }
-    article p{ text-align:center; }
+    article p{font-size:1.2vw;text-align:center; }
 
 #more h1{
         font-size:4vw;
     }
+#more{
+	background-color:white;
+}    
     
 
 
