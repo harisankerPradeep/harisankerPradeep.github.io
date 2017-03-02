@@ -27,7 +27,7 @@ html{
 .curtains>li:first-child{z-index:2;}
 hr{background: #333;border: 0;height: 2px;margin: 12px auto 8px;width: 100vw;}
 #section-1{
-    background-image:url(img/eiffel-2.jpg) 50% 0 no-repeat;
+    background-color:white;
     background-size:cover;
 }
 
@@ -57,18 +57,23 @@ hr{background: #333;border: 0;height: 2px;margin: 12px auto 8px;width: 100vw;}
 
     }
 article{
+		background-color:white;
     text-align:center;
     padding:150px 0;
     width:50vw;
     margin:0 auto;
 }
+#article{
+	background-color:white;
+	}
 
     article h4:first-child{ margin:0; }
     article p{ text-align:center; }
 
-#section-3 h1{
+#more h1{
         font-size:4vw;font-family: 'PT Sans Narrow', sans-serif;
     }
+    
 
 
 
