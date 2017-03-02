@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif|PT+Sans+Narrow:700|PT+Sans);
+
 html{
     height: 100%;
     overflow-x: hidden;
@@ -23,3 +25,50 @@ html{
 }
 .curtains>li.hidden{display:none;}
 .curtains>li:first-child{z-index:2;}
+hr{background: #333;border: 0;height: 2px;margin: 12px auto 8px;width: 100vw;}
+#section-1{
+    background-image:url(img/eiffel-2.jpg) 50% 0 no-repeat;
+    background-size:cover;
+}
+
+    #section-1 header{
+        color:#FFF;
+        position:absolute;
+        top:30%;
+        left:50%;
+        margin:0 0 0 -350px;
+        width:700px;
+        text-align:center;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+        line-height:1.1;
+    }
+
+    #section-1 h1{
+        font-size:5vw;
+	font-family: 'PT Sans Narrow', sans-serif;font-weight:bold;
+	
+    }
+
+    #section-1 h4{
+        text-transform:capitalize;
+        opacity:.75;
+        font-size:1vw;
+		font-family: 'PT Sans Narrow', sans-serif;font-weight:bold;
+
+    }
+article{
+    text-align:center;
+    padding:150px 0;
+    width:50vw;
+    margin:0 auto;
+}
+
+    article h4:first-child{ margin:0; }
+    article p{ text-align:center; }
+
+#section-3 h1{
+        font-size:5vw;font-family: 'PT Sans Narrow', sans-serif;
+    }
+
+
+
