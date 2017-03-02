@@ -46,7 +46,7 @@ hr{background: #333;border: 0;height: 2px;margin: 12px auto 8px;width: 100vw;}
     #section-1 h1{
         font-size:5vw;
         letter-spacing:1px;	
-	font-family: 'PT Sans Narrow', sans-serif;font-weight:bold;
+	
 	
     }
 
@@ -54,8 +54,7 @@ hr{background: #333;border: 0;height: 2px;margin: 12px auto 8px;width: 100vw;}
         text-transform:capitalize;
         opacity:.75;
         font-size:2.5vw;
-		font-family: 'PT Sans Narrow', sans-serif;font-weight:bold;
-
+	
     }
 article{
 		background-color:white;
@@ -72,7 +71,7 @@ article{
     article p{ text-align:center; }
 
 #more h1{
-        font-size:4vw;font-family: 'PT Sans Narrow', sans-serif;
+        font-size:4vw;
     }
     
 
