@@ -35,7 +35,7 @@ a:hover{color:#0a487f;}
 article{
     text-align:center;
     padding:150px 0;
-    width:250px;
+    width:500px;
     margin:0 auto;
 }
 
@@ -91,7 +91,7 @@ article{
 /* Section 1 */
 
 #section-1{
-    background:url(img/eiffel-2.jpg) 50% 0 no-repeat;
+    background-image:url(img/eiffel-2.jpg) 50% 0 no-repeat;
     background-size:cover;
 }
 
