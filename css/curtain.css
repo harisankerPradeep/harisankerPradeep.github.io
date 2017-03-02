@@ -45,6 +45,7 @@ hr{background: #333;border: 0;height: 2px;margin: 12px auto 8px;width: 100vw;}
 
     #section-1 h1{
         font-size:5vw;
+        letter-spacing:1px;	
 	font-family: 'PT Sans Narrow', sans-serif;font-weight:bold;
 	
     }
