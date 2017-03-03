@@ -69,8 +69,8 @@ article{
 	}
 
     article h4:first-child{ margin:0; }
-    article p{font-size:1.2vw;text-align:center; }
-
+    #article p{font-size:1.3vw;text-align:center; }
+		#article h4{font-size:1.9vw;text-align:center; }	
 #more h1{
         font-size:4vw;
     }
