@@ -45,9 +45,9 @@ hr{background: #333;border: 0;height: 2px;margin: 12px auto 8px;width: 100vw;}
 
     #section-1 h1{
         font-size:5vw;
-        letter-spacing:1px;	
+        letter-spacing:1px;
 				font-weight:bold
-	
+
     }
 
     #section-1 h5{
@@ -55,8 +55,10 @@ hr{background: #333;border: 0;height: 2px;margin: 12px auto 8px;width: 100vw;}
         opacity:.75;
         font-size:2.0vw;
         font-weight:100;
-	
+
     }
+
+
 article{
 		background-color:white;
     text-align:center;
@@ -70,14 +72,48 @@ article{
 
     article h4:first-child{ margin:0; }
     #article p{font-size:1.3vw;text-align:center; }
-		#article h4{font-size:1.9vw;text-align:center; }	
+		#article h4{font-size:1.9vw;text-align:center; }
 #more h1{
         font-size:4vw;
     }
 #more{
 	background-color:white;
-}    
-    
+}
+#more p{
+  style=font-size:1.75vw;
+}
+@media (max-width: 600px) {
+  #section-1 header{
+      color:#FFF;
+      position:absolute;
+      top:20%;
+      left:50%;
+      margin:0 0 0 -350px;
+      width:700px;
+      text-align:center;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+      line-height:1.1;
+  }
+  #section-1 h1{
+      font-size:40px;
+      letter-spacing:1px;
+      font-weight:bold
 
+  }
+  #section-1 h5{
+      text-transform:capitalize;
+      opacity:.75;
+      font-size:12px;
+      font-weight:100;
 
+  }
+  #article p{font-size:20px;text-align:center; }
+  #article h4{font-size:24px;text-align:center; }
+  #more p{
+    style=font-size:18px;
+  }
+  #more h1{
+          font-size:24px;
+      }
 
+}
